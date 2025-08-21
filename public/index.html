@@ -9,16 +9,16 @@
     <title>LLM Chat App</title>
     <style>
       :root {
-        --primary-color: #f6821f;
+        --primary-color: #D7463B;
         --primary-hover: #e67e22;
         --light-bg: #f9fafb;
         --border-color: #e5e7eb;
         --text-color: #1f2937;
-        --text-light: #6b7280;
+        --text-light: #74787E;
         --user-msg-bg: #fff2e6;
         --assistant-msg-bg: #f3f4f6;
         
-        --serif: "Styrene B LC", "Aldine 401 BT Web", "Times New Roman", Georgia, ui-serif, serif;
+        --serif: "Styrene B LC", "Times New Roman", Georgia, ui-serif, serif;
         --sans-serif: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
       }
 
@@ -28,12 +28,6 @@
         padding: 0;
       }
 
-      @font-face {
-        font-family: "Aldine 401 BT Web";
-        src: url("https://pub-7a3b428c76aa411181a0f4dd7fa9064b.r2.dev/Aldine401_Mersedeh.woff2") format("woff2");
-        font-weight: 400; font-style: normal; font-display: swap;
-      }
-  
       @font-face {
         font-family: "Styrene B LC";
         src: url("https://pub-7a3b428c76aa411181a0f4dd7fa9064b.r2.dev/StyreneBLC-Regular.woff2") format("woff2");
@@ -64,14 +58,15 @@
 
       h1 {
         font-family: var(--sans-serif);
-        font-size: 2.0rem;
+        font-size: 2.2rem;
+        font-weight: 700;
         color: var(--primary-color);
       }
 
       p {
-        color: var(--text-color);
+        color: var(--text-light);
         font-family: var(--serif);
-        font-size: 1.0rem;
+        font-size: 0.8rem;
         font-weight: 400;
       }
 
@@ -162,7 +157,7 @@
         margin-top: 1rem;
         text-align: center;
         font-family: var(--serif);
-        font-size: 0.85rem;
+        font-size: 0.7rem;
         color: var(--text-light);
       }
     </style>
